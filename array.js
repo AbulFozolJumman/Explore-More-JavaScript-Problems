@@ -12,11 +12,12 @@ console.log(typeof country);
 console.log(typeof age);
 console.log(typeof isIndependent);
 console.log(typeof student);
+console.log(typeof friends);
 // check array using Array.isArray
 console.log(Array.isArray(friends));
 console.log(typeof add);
 
-// ---------------------
+// Array Index Existing Checking
 console.log(friends.includes(19));
 console.log(friends.includes(21));
 
@@ -24,7 +25,7 @@ if(friends.indexOf(252) !== -1 ){
 
 }
 
-// concat : 
+// Array Concatenation : 
 const newFriendsAge = [12, 13, 11, 13]
 const allFriends = newFriendsAge.concat(friends);
 console.log(allFriends)
